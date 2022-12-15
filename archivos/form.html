@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="./CSS/estilomenu.css">
+
+<head>
+  <style>
+    ul{
+        list-style list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #C7CABF;
+    }
+    li {float: left;}
+    li a{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover{
+        background-color: green;
+        
+
+    }
+/* se crea el menu con su estilo */
+
+</style> 
+</head>
+<ul>
+  <!-- se hacen los espacios del menu -->
+  <li><a class="active" href="principal.html">Inicio</a></li>
+  <li><a href="Menu.html">Menu</a></li>
+  <li><a href="Bebidas.html">Bebidas</a></li>
+  <li><a href="Contacto.html">Contacto</a></li>
+  <li><a href="inicio.html">Salir</a></li>
+</ul>
+<body>
+
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+</style>
+<body>
+    <form>
+        <label for="fnombre">Nombre del producto:</label><br>
+        <input type="text" id="fnombre" name="fnombre"><br>
+        <label for="lcantidad">Cantidad</label><br>
+        <input type="text" id="lcantidad" name="lcantidad"><br>
+        <label for="fprecio">Precio</label><br>
+        <input type="text" id="fprecio" name="fprecio"><br>
+        <label for="fid">ID</label><br>
+        <input type="text" id="fid" name="fid"><br>
+        <input type="submit" value="Agregar">
+        <input type="submit" value="Borrar">
+        <input type="submit" value="Actualizar">
+        <input type="submit" value="Borrar">
+      </form>
+</body>
+</html>
+

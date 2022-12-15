@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width= device-width initial-sacle=1.0">
+        <meta name="keywords" content="">
+        <title>"Los Guayabos"</title>
+        <link rel="Stylesheet" href="./CSS/estilomenu.css"/>
+        <link rel="stylesheet" href="./CSS/carrucel.css">
+        <script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script>
+         <style>
+            ul{
+                list-style list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #C7CABF;
+            }
+            li {float: left;}
+            li a{
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover{
+                background-color: green;
+                
+    
+            }
+        /* se crea el menu con su estilo */
+        
+        </style>  
+    </head>
+    <ul>
+        <!-- se hacen los espacios del menu -->
+        <li><a class="active" href="Menu.html">MENU</a></li>
+        <li><a href="Bebidas.html">Bebidas</a></li>
+        <li><a href="Contacto.html">CONTACTO</a></li>
+        <li><a href="form.html">Productos</a></li>
+        <li><a href="inicio.html">Salir</a></li>
+        
+        
+        
+    </ul>
+     <!-- se Hace el carrucel en el body y se da el formato en el css -->
+    <body>
+        <div class="carrousel">
+            <div class="conteCarrousel">
+                <div class="itemCarrousel" id="itemCarrousel-1">
+                    <div class="itemCarrouselTarjeta"><img src="Multimedia/carrucel 1.jpg" alt="item-1-carrusel"></div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-4">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-2">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-2">
+                    <div class="itemCarrouselTarjeta"><img src="Multimedia/carrucel 2.jpg" alt="item-2-carrusel"></div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-1">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-3">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-3">
+                    <div class="itemCarrouselTarjeta"><img src="Multimedia/carrucel 3.jpg" alt="item-3-carrusel"></div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-2">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-4">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-4">
+                    <div class="itemCarrouselTarjeta"><img src="Multimedia/carrucel 4.jpg" alt="item-4-carrusel"></div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-3">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-1">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="conteCarrouselController">
+                <a href="#itemCarrousel-1">•</a>
+                <a href="#itemCarrousel-2">•</a>
+                <a href="#itemCarrousel-3">•</a>
+                <a href="#itemCarrousel-4">•</a>
+            </div>
+        </div>
+        </body>
+         
+
+        
+        
+    
+    
+    
+  
+    
+</html>
